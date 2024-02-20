@@ -1,5 +1,5 @@
 {% set name = "hextools" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hextools-{{ version }}.tar.gz
-  sha256: 573d296dd62369f9db249f30341035c10e60c3b82c87e76401f853109e243a6c
+  sha256: ab5838e4996cd160a2a3538e5bbf5a92a44ae9519f8d291e728c10d83decb815
 
 build:
   noarch: python

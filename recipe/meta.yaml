@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hextools-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/hextools-{{ version }}.tar.gz
   sha256: 5b4cc0cfcf7da42be2112b37426dc4c127784fc80ed7c14853ca7c0e13eca83c
 
 build:
@@ -17,9 +17,9 @@ build:
 requirements:
   host:
     - python >=3.8
-    - pip
     - setuptools >=61
     - setuptools-scm >=7
+    - pip
   run:
     - python >=3.8
     - area-detector-handlers
